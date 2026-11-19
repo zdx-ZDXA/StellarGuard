@@ -1,0 +1,19 @@
+{
+  "enable": {
+    "type": "bool",
+    "description": "启用守护",
+    "default": true
+  },
+  "split_sentences": {
+    "type": "bool",
+    "description": "按句断条",
+    "default": true,
+    "hint": "句末标点处拆成多条发送，更像真人聊天"
+  },
+  "min_sentence_len": {
+    "type": "int",
+    "description": "最短句长",
+    "default": 8,
+    "hint": "短于这个字数的句子并入上一条，避免碎片化"
+  }
+}
